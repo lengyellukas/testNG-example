@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test NG Parameters example">
+    <test name="internet explorer test">
+        <parameter name="browser" value="IE"/>
+            <classes>
+                <class name="ParametersExample"></class>
+            </classes>
+    </test> <!-- IE test -->
+    <test name="Firefox tests">
+        <parameter name="browser" value="Firefox"/>
+        <classes>
+            <class name="ParametersExample"></class>
+        </classes>
+    </test> <!-- Firefox test -->
+    <test name="Chrome tests">
+        <parameter name="browser" value="Chrome"/>
+        <classes>
+            <class name="ParametersExample"></class>
+        </classes>
+    </test> <!-- Chrome tests -->
+</suite> <!-- Test NG Parameters example Suite -->

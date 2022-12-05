@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test NG example">
+    <test name="Search for a product">
+        <classes>
+            <class name="Annotations">
+                <methods>
+                    <include name = "searchForTshirt"/>
+                    <include name= "searchForBlouse" />
+                </methods>
+            </class>
+        </classes>
+    </test> <!-- Search for a product Test -->
+</suite> <!-- Test NG example Suite -->
